@@ -1,13 +1,11 @@
 
+
 import java.util.Scanner;
 
 public class TestFunction {
-	/** Main method */
 	public static void main(String[] args){
-		System.out.println("Please enter the value of x.");
 		Scanner aaa = new Scanner(System.in);
 		double x = aaa.nextInt();
-		//invoke constructor and create object
 		Function1 f1 = new Function1();
 		System.out.println(f1.f(x));
 		Function2 f2 = new Function2();
